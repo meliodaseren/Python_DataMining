@@ -10,7 +10,7 @@
   * orange 3.4.1
 * Python Packages
   * panda
-  * SciPy
-  * NumPy
+  * scipy
+  * numpy
   * matplotlib
   * sklearn
