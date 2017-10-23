@@ -241,6 +241,7 @@ print('Accuracy: %.2f' % accuracy_score(y_test, y_pred))
 
 svm = SVC(kernel='linear', C=1.0, random_state=0)
 svm.fit(X_train_std, y_train)
+
 # 實例化後使用fit方法一行就好了
 # C正規化的參數
 
@@ -289,7 +290,7 @@ print(X_xor)
 print(y_xor)
 
 svm = SVC(kernel='rbf', random_state=0, gamma=0.10, C=10.0)
-#使用rbf kernel gamma是參數
+# 使用rbf kernel gamma是參數
 svm.fit(X_xor, y_xor)
 plot_decision_regions(X_xor, y_xor,classifier=svm)
 
